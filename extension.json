@@ -1,55 +1,14 @@
-# Creació del block
 {
-    "id": "bottom2_leds",
-    "name": "Bottom2 LEDs",
-    "version": "1.0.0",
-    "author": "Neus",
-    "description": "Control de LEDs NeoPixel del M5Go Bottom2 (GPIO25)",
-    "files": [
-      "bottom2_led.py"
-    ],
-    "modules": [
-      {
-        "name": "set_led",
-        "parameters": [
-          {
-            "name": "index",
-            "type": "number",
-            "default": 0
-          },
-          {
-            "name": "r",
-            "type": "number",
-            "default": 255
-          },
-          {
-            "name": "g",
-            "type": "number",
-            "default": 0
-          },
-          {
-            "name": "b",
-            "type": "number",
-            "default": 0
-          }
-        ],
-        "code": "set_led({index}, {r}, {g}, {b})",
-        "block": {
-          "type": "command",
-          "message": "LED %1 vermell %2 verd %3 blau %4",
-          "args": ["index", "r", "g", "b"]
-        }
-      },
-      {
-        "name": "clear_all",
-        "parameters": [],
-        "code": "clear_all()",
-        "block": {
-          "type": "command",
-          "message": "Apaga tots els LEDs",
-          "args": []
-        }
-      }
-    ]
-  }
-  
+  "name": "m5-neus-blocs",
+  "version": "1.0.0",
+  "author": "Neus",
+  "description": "Blocs personalitzats per a GoPlus2, Bottom2 i BaseX",
+  "type": "module",
+  "platform": ["core2"],
+  "modules": [
+    {
+      "name": "GoPlus2",
+      "path": "goplus2"
+    }
+  ]
+}
