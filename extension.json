@@ -9,6 +9,10 @@
     {
       "name": "GoPlus2",
       "path": "goplus2"
+    },
+    {
+      "name": "Bottom2",
+      "path": "bottom2"
     }
   ]
 }
