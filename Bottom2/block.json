@@ -1,0 +1,28 @@
+{
+    "name": "Bottom2",
+    "version": "1.0.0",
+    "author": "Neus",
+    "category": "Modules",
+    "color": "#3366FF",
+    "icon": "icon.png",
+    "blocks": [
+      {
+        "type": "set_led_color",
+        "message0": "posa LED %1 color %2",
+        "args0": [
+          {
+            "type": "field_dropdown",
+            "name": "led",
+            "options": [["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"]]
+          },
+          {
+            "type": "input_value",
+            "name": "color"
+          }
+        ],
+        "previousStatement": null,
+        "nextStatement": null
+      }
+    ]
+  }
+  
