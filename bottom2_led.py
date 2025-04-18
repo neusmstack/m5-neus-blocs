@@ -1,3 +1,4 @@
+#Bottom 2 Module for Core 2 only
 from machine import Pin
 import neopixel
 
