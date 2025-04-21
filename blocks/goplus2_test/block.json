@@ -1,0 +1,22 @@
+{
+    "name": "test_servos_leds_goplus2",
+    "color": "orange",
+    "icon": "/static/icons/motor.png",
+    "title": {
+      "en": "Test GoPlus2 Servos & LEDs"
+    },
+    "description": {
+      "en": "Run a demo sequence to test GoPlus2 servos and Bottom2 LEDs"
+    },
+    "blocks": [
+      {
+        "opcode": "test_servos_leds_goplus2",
+        "type": "command",
+        "arguments": {},
+        "text": {
+          "en": "Test GoPlus2 servos and LEDs"
+        }
+      }
+    ]
+  }
+  
