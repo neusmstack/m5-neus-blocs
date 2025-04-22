@@ -1,0 +1,16 @@
+
+{
+  "id": "ask_input",
+  "type": "function",
+  "message0": "ask input %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "PROMPT"
+    }
+  ],
+  "output": "String",
+  "colour": 230,
+  "tooltip": "Mostra un prompt i espera text del CardKB",
+  "helpUrl": ""
+}

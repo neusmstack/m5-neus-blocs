@@ -1,0 +1,22 @@
+{
+  "category": "Custom",
+  "color": 230,
+  "blocks": [
+    {
+      "id": "ask_input_pc",
+      "name": "ask_input_pc",
+      "type": "value",
+      "message0": "ask input (PC) %1",
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "PROMPT"
+        }
+      ],
+      "params": [],
+      "output": "String",
+      "tooltip": "Mostra un prompt i llegeix text des del teclat de l'ordinador",
+      "helpUrl": ""
+    }
+  ]
+}
