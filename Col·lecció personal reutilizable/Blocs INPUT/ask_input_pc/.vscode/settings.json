@@ -1,0 +1,17 @@
+{
+  "idf.hasWalkthroughBeenShown": true,
+  "[json]": {
+    "python.pythonPath": "/dev/cu.wchusbserial586A0319471"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggest.insertMode": "replace",
+  "pymakr.devices.configs": [
+    {
+      "name": "M5Core2",
+      "port": "/dev/cu.wchusbserial586A0319471",
+      "baudrate": 115200
+    }
+  ]
+}

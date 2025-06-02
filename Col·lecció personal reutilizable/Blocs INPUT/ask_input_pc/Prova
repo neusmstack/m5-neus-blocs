@@ -1,0 +1,3 @@
+import time
+print("Connexió exitosa!")
+time.sleep(2)
