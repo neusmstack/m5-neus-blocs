@@ -25,8 +25,7 @@ Its goals are to:
 A goniometer that uses trigonometry to calculate heights from angles and laser-measured distances.  
 The laser directly measures the hypotenuse, shifting focus to real-time angle detection and trigonometric reasoning.
 
-![LaserAngle](project_images/LaserAngle.jpg)  
-[▶️ Watch demo on YouTube](https://www.youtube.com/watch?v=X0DargmOZIA)
+![LaserAngle](project_images/LaserAngle.JPG)
 
 ---
 
@@ -35,7 +34,8 @@ The laser directly measures the hypotenuse, shifting focus to real-time angle de
 A mechanical model of the Peano axioms to explore the foundations of natural numbers.  
 It can also integrate robot behavior like line following.
 
-![PeanoFactory](project_images/PeanoFactory.jpg)
+![PeanoFactory](project_images/PeanoFactory.jpg)  
+[▶️ Watch demo on YouTube](https://www.youtube.com/watch?v=X0DargmOZIA)
 
 ---
 
