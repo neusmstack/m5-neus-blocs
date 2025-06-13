@@ -110,4 +110,3 @@ As long as you follow the license terms:
 ✍️ Developed by **Neus – @neusmstack**  
 📅 June 2025  
 📦 Shared to promote **open, creative, and real-world education**
-Updated README with images and video
