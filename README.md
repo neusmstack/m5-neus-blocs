@@ -49,18 +49,19 @@ An automatic irrigation system based on soil moisture and mathematical functions
 
 ## 📁 Repository Structure
 
-```
-m5-neus-blocs/
-├── bottom2_leds_test/       → RGB LED control for Bottom2 module
-├── cardkb_input/            → Using CardKB keyboard for text input
-├── custom_blocks_docs/      → Docs for creating custom UiFlow blocks
-├── goplus2_servos_test/     → Servo control via GoPlus2
-├── patch_macos_m5burner/    → Files for running M5Burner on macOS 15.5
-├── steam_projects/          → Main STEAM projects with M5Stack + LEGO
-│   ├── nombres_enters/        → Natural numbers and integers (Peano)
-│   ├── smart_watering/        → Atom S3-based automatic watering
-│   ├── line_follower/         → IR + ultrasound line follower robot
-├── README.md                → This file
+```plaintext
+M5Stackademy/
+├── bottom2_leds_test/            → RGB LED control for Bottom2 module
+├── cardkb_input/                 → Using CardKB keyboard for text input
+├── custom_blocks_docs/           → Docs for creating custom UiFlow blocks
+├── goplus2_servos_test/          → Servo control via GoPlus2
+├── patch_macos_m5burner/         → Files for running M5Burner on macOS 15.5
+├── steam_projects/               → Main STEAM projects with M5Stack + LEGO
+│   ├── Peano_Axioms/                  → Natural numbers and integers (Peano)
+│   ├── smart_watering/               → Atom S3-based automatic watering
+│   ├── Electrogoniometre/            → Goniometer + laser height calculator
+│   ├── generator_revolution_solids/  → Generator of solids of revolution
+├── README.md                    → This file
 ```
 
 ---
@@ -88,13 +89,14 @@ Each project is built to help students explore mathematical ideas through **hand
 
 ## 📜 License
 
-This project is licensed under:
+This project is licensed under:  
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
 
 You are free to:
 
 ✅ Share — copy and redistribute the material in any medium or format  
 ✅ Adapt — remix, transform, and build upon the material  
+
 As long as you follow the license terms:
 
 - 🧾 Attribution — Give credit to Neus, link the license, and indicate changes  
